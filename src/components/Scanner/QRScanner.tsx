@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Text, View, Button, StyleSheet } from 'react-native';
 import { BarCodeScanner } from 'expo-barcode-scanner';
-import styled from 'styled-components/native';
+import { Container, QRCodeText } from './style'
 
 const QRScanner: React.FC = () => {
   const [hasPermission, setHasPermission] = useState<boolean | null>(null);
@@ -41,15 +41,6 @@ const QRScanner: React.FC = () => {
   );
 };
 
-const Container = styled.View`
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-`;
 
-const QRCodeText = styled.Text`
-  font-size: 18px;
-  padding: 16px;
-`;
 
 export default QRScanner;

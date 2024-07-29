@@ -1,5 +1,5 @@
 import React from 'react';
-import QRScanner from './src/components/QRScanner';
+import QRScanner from './src/components/Scanner/QRScanner';
 import styled from 'styled-components/native';
 
 const App: React.FC = () => {
