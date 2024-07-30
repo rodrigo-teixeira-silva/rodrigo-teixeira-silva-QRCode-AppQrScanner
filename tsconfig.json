@@ -11,7 +11,8 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
+    "components/Scanner/QRScanner.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "src/components/Scanner/QRScanner.tsx"  ]
+  ]
 }
