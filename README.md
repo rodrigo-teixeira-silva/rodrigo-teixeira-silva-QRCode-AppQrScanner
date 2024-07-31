@@ -1,6 +1,27 @@
-# Welcome to your Expo app 👋
+# Welcome to AppQrScanner 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+
+# Sobre o projeto
+
+Aplicação utilizando a camera do dispositivo para leitura de QRCODE.
+
+ **</>Codelink**.
+
+Aplicação utilizando framework react native.
+
+
+## Layout mobile
+<img src="./assets/images/AppQrScanner.gif">
+
+# Tecnologias utilizadas
+## Aplicação
+
+- [Expo](https://docs.expo.dev/?utm_source=google&utm_medium=cpc&utm_content=search&gclid=CjwKCAjwxOymBhAFEiwAnodBLE4O6-g49a-HniPnrQt_l-6t_CNvui4z2_h31jUCUpesirHbFYmI_hoC39IQAvD_BwE)
+- [TypeScript](https://www.typescriptlang.org/docs/)
+- [styled-component](https://styled-components.com/docs/basics#installation)
+- [Expo BarCodeScanner](https://docs.expo.dev/versions/latest/sdk/bar-code-scanner/)
+
 
 ## Get started
 
@@ -16,35 +37,23 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
-
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Iniciando o projeto
 
-## Get a fresh project
-
-When you're ready, run:
+Rodando o projeto 
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Para saber mais
 
-## Learn more
+Para saber mais sobre como desenvolver seu projeto com a Expo, consulte os seguintes recursos:
 
-To learn more about developing your project with Expo, look at the following resources:
+- [Expo documentation](https://docs.expo.dev/): Aprenda os fundamentos ou aprofunde-se em tópicos avançados com nossos [guias](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Siga o tutorial passo a passo onde você criará um projeto que roda em Android, iOS e na web.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

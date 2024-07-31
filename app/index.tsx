@@ -1,5 +1,5 @@
 import React from 'react';
-import QRScanner from './Scanner/QRScanner';
+import QRScanner from '../src/components/Scanner/QRScanner';
 import styled from 'styled-components/native';
 
 const App: React.FC = () => {
@@ -12,7 +12,7 @@ const App: React.FC = () => {
 
 const Container = styled.View`
   flex: 1;
-  background-color: #fff;
+  background-color: #1e293b;
 `;
 
 export default App;

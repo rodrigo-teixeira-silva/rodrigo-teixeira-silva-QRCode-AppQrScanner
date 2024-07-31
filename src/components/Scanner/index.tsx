@@ -12,7 +12,7 @@ const App: React.FC = () => {
 
 const Container = styled.View`
   flex: 1;
-  background-color: #fff;
+  background-color: #1e293b;
 `;
 
 export default App;
