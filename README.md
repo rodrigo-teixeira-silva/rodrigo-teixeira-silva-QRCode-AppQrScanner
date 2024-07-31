@@ -23,19 +23,21 @@ Aplicação utilizando framework react native.
 - [Expo BarCodeScanner](https://docs.expo.dev/versions/latest/sdk/bar-code-scanner/)
 
 
-## Get started
+## Iniciar
 
-1. Install dependencies
+1. Instalar dependências
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Rodar o app 
 
    ```bash
     npx expo start
    ```
+
+## Documentação de emuladores 
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
@@ -50,7 +52,7 @@ Rodando o projeto
 npm run reset-project
 ```
 
-## Para saber mais
+## Saiba mais
 
 Para saber mais sobre como desenvolver seu projeto com a Expo, consulte os seguintes recursos:
 
